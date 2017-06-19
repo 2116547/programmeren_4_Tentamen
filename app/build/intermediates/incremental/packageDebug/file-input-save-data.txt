@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Jun 19 20:13:29 CEST 2017
+#Tue Jun 20 00:17:20 CEST 2017
 20.base=/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/resources-debug.ap_
 143.base=/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar
 493.base=/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar

@@ -51,7 +51,7 @@ MERGED from [com.android.volley:volley:1.0.0] /Users/joep/.android/build-cache/a
 activity#nl.avans.android.todos.presentation.MainActivity
 ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:15:9-24:20
 	android:label
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:17:13-45
+		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:17:13-52
 	android:theme
 		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:18:13-56
 	android:name

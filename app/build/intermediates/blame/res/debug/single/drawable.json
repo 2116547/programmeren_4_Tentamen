@@ -28,12 +28,12 @@
         "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/drawable/side_nav_bar.xml",
         "source": "/Users/joep/dev/programmeren_4_tentamen/app/src/main/res/drawable/side_nav_bar.xml"
+    },
+    {
+        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
