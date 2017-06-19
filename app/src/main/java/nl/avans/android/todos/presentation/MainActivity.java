@@ -24,26 +24,28 @@ import java.util.ArrayList;
 import nl.avans.android.todos.R;
 import nl.avans.android.todos.domain.Film;
 import nl.avans.android.todos.domain.FilmAdapter;
-import nl.avans.android.todos.service.ToDoRequest;
+import nl.avans.android.todos.service.FilmRequest;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener,
         AdapterView.OnItemClickListener,
-        ToDoRequest.ToDoListener {
+        FilmRequest.FilmListener {
 
     // Logging tag
     public final String TAG = this.getClass().getSimpleName();
 
     // The name for communicating Intents extras
-    public final static String TODO_DATA = "TODOS";
+    public final static String FILM_DATA = "FILMS";
 
     // A request code for returning data from Intent - is supposed to be unique.
     public static final int MY_REQUEST_CODE = 1234;
 
     // UI Elements
-    private ListView listViewToDos;
-    private BaseAdapter todoAdapter;
+    private ListView listViewFilms;
+    private BaseAdapter FilmAdapter;
     private ArrayList<Film> films = new ArrayList<>();
+    int customerId;
+    Intent intent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,52 +55,25 @@ public class MainActivity extends AppCompatActivity
         // Het token is opgeslagen in SharedPreferences.
         // Mocht er geen token zijn, of het token is expired, dan moeten we
         // eerst opnieuw inloggen.
-        if(tokenAvailable()){
-            setContentView(R.layout.activity_main);
-            Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-            setSupportActionBar(toolbar);
+        intent = getIntent();
 
-            FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-            fab.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent newToDo = new Intent(getApplicationContext(), FilmlistActivity.class);
-                    // We receive a Film object to be stored via the API.
-                    startActivityForResult( newToDo, MY_REQUEST_CODE );
-                }
-            });
+        //customerId = (Integer) intent.getIntExtra( "id", customerId);
 
-            DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-            ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-                    this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-            drawer.setDrawerListener(toggle);
-            toggle.syncState();
+        setContentView(R.layout.activity_main);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-            NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-            navigationView.setNavigationItemSelectedListener(this);
-
-            listViewToDos = (ListView) findViewById(R.id.listViewToDos);
-            listViewToDos.setOnItemClickListener(this);
-            todoAdapter = new FilmAdapter(this, getLayoutInflater(), films);
-            listViewToDos.setAdapter(todoAdapter);
-            //
-            // We hebben een token. Je zou eerst nog kunnen valideren dat het token nog
-            // geldig is; dat doen we nu niet.
-            // Vul de lijst met ToDos
-            //
-            Log.d(TAG, "Token gevonden - ToDos ophalen!");
-            getToDos();
-        } else {
-            //
-            // Blijkbaar was er geen token - eerst inloggen dus
-            //
-            Log.d(TAG, "Geen token gevonden - inloggen dus");
-            Intent login = new Intent(getApplicationContext(), LoginActivity.class);
-            startActivity(login);
-            // Sluit de huidige activity. Dat voorkomt dat de gebuiker via de
-            // back-button zonder inloggen terugkeert naar het homescreen.
-            finish();
-        }
+        listViewFilms = (ListView) findViewById(R.id.filmList);
+        listViewFilms.setOnItemClickListener(this);
+        FilmAdapter = new FilmAdapter(this, getLayoutInflater(), films);
+        listViewFilms.setAdapter(FilmAdapter);
+        //
+        // We hebben een token. Je zou eerst nog kunnen valideren dat het token nog
+        // geldig is; dat doen we nu niet.
+        // Vul de lijst met Films
+        //
+        Log.d(TAG, "Token gevonden - Films ophalen!");
+        getFilms();
     }
 
     /**
@@ -109,22 +84,22 @@ public class MainActivity extends AppCompatActivity
      * @param resultCode
      * @param pData
      */
-    protected void onActivityResult(int requestCode, int resultCode, Intent pData)
-    {
-        if ( requestCode == MY_REQUEST_CODE )
-        {
-            Log.v( TAG, "onActivityResult OK" );
-            if (resultCode == Activity.RESULT_OK )
-            {
-                final Film newFilm = (Film) pData.getSerializableExtra(TODO_DATA);
-                Log.v( TAG, "Retrieved Value newFilm is " + newFilm);
-
-                // We need to save our new Film
-                postTodo(newFilm);
-            }
-        }
-
-    }
+//    protected void onActivityResult(int requestCode, int resultCode, Intent pData)
+//    {
+//        if ( requestCode == MY_REQUEST_CODE )
+//        {
+//            Log.v( TAG, "onActivityResult OK" );
+//            if (resultCode == Activity.RESULT_OK )
+//            {
+//                final ToDo newToDo = (ToDo) pData.getSerializableExtra(TODO_DATA);
+//                Log.v( TAG, "Retrieved Value newToDo is " + newToDo);
+//
+//                // We need to save our new ToDo
+//                postTodo(newToDo);
+//            }
+//        }
+//
+//    }
 
     /**
      * Check of een token in localstorage is opgeslagen. We checken niet de geldigheid -
@@ -162,37 +137,39 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    //@Override
+  //  public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+      ///  int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            Intent settings = new Intent(getApplicationContext(), SettingsActivity.class);
-            startActivity(settings);
-            return true;
-        } else if(id == R.id.action_logout){
+        //if (id == R.id.action_reserveringen) {
+          //  Intent intent = new Intent(getApplicationContext(), RentalList.class);
+            //intent.putExtra("ID", customerId);
+            //startActivity(intent);
+
+            //return true;
+        //} else if(id == R.id.action_logout){
             // Logout - remove token from local settings and navigate to login screen.
-            SharedPreferences sharedPref = getApplicationContext().getSharedPreferences(
-                    getString(R.string.preference_file_key), Context.MODE_PRIVATE);
-            SharedPreferences.Editor editor = sharedPref.edit();
-            editor.remove(getString(R.string.saved_token));
-            editor.commit();
+          //  SharedPreferences sharedPref = getApplicationContext().getSharedPreferences(
+            //        getString(R.string.preference_file_key), Context.MODE_PRIVATE);
+            //SharedPreferences.Editor editor = sharedPref.edit();
+            //editor.remove(getString(R.string.saved_token));
+            //editor.commit();
 
             // Empty the homescreen
-            films.clear();
-            todoAdapter.notifyDataSetChanged();
+            //films.clear();
+            //FilmAdapter.notifyDataSetChanged();
 
             // Navigate to login screen
-            Intent login = new Intent(getApplicationContext(), LoginActivity.class);
-            startActivity(login);
-        }
+           // Intent login = new Intent(getApplicationContext(), LoginActivity.class);
+            //startActivity(login);
+       // }
 
-        return super.onOptionsItemSelected(item);
-    }
+//        return super.onOptionsItemSelected(item);
+  //  }
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -224,18 +201,19 @@ public class MainActivity extends AppCompatActivity
         Log.i(TAG, "Position " + position + " is geselecteerd");
 
         Film film = films.get(position);
-        Intent intent = new Intent(getApplicationContext(), ToDoDetailActivity.class);
-        intent.putExtra(TODO_DATA, film);
+        Intent intent = new Intent(getApplicationContext(), FilmDetailActivity.class);
+        intent.putExtra("ID", customerId);
+        intent.putExtra(FILM_DATA, film);
         startActivity(intent);
     }
 
     /**
-     * Callback function - handle an ArrayList of ToDos
+     * Callback function - handle an ArrayList of Films
      *
      * @param filmArrayList
      */
     @Override
-    public void onToDosAvailable(ArrayList<Film> filmArrayList) {
+    public void onFilmsAvailable(ArrayList<Film> filmArrayList) {
 
         Log.i(TAG, "We hebben " + filmArrayList.size() + " items in de lijst");
 
@@ -243,18 +221,18 @@ public class MainActivity extends AppCompatActivity
         for(int i = 0; i < filmArrayList.size(); i++) {
             films.add(filmArrayList.get(i));
         }
-        todoAdapter.notifyDataSetChanged();
+        FilmAdapter.notifyDataSetChanged();
     }
 
     /**
      * Callback function - handle a single Film
      *
-     * @param todo
+     * @param film
      */
     @Override
-    public void onToDoAvailable(Film todo) {
-        films.add(todo);
-        todoAdapter.notifyDataSetChanged();
+    public void onFilmsAvailable(Film film) {
+        films.add(film);
+        FilmAdapter.notifyDataSetChanged();
     }
 
     /**
@@ -269,19 +247,18 @@ public class MainActivity extends AppCompatActivity
     }
 
     /**
-     * Start the activity to GET all ToDos from the server.
+     * Start the activity to GET all the films from the server.
      */
-    private void getToDos(){
-        ToDoRequest request = new ToDoRequest(getApplicationContext(), this);
-        request.handleGetAllToDos();
+    private void getFilms(){
+        FilmRequest request = new FilmRequest(getApplicationContext(), this);
+        request.handleGetFilms();
     }
 
     /**
-     * Start the activity to POST a new Film to the server.
+     * Start the activity to POST a new ToDo to the server.
      */
-    private void postTodo(Film todo){
-        ToDoRequest request = new ToDoRequest(getApplicationContext(), this);
-        request.handlePostToDo(todo);
-    }
-
+//    private void postTodo(ToDo todo){
+//        ToDoRequest request = new ToDoRequest(getApplicationContext(), this);
+//        request.handlePostToDo(todo);
+//    }
 }

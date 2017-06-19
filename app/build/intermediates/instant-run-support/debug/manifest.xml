@@ -33,13 +33,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="nl.avans.android.todos.presentation.ToDoDetailActivity"
-            android:parentActivityName="nl.avans.android.todos.presentation.MainActivity" >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".presentation.MainActivity" />
-        </activity>
-        <activity
             android:name="nl.avans.android.todos.presentation.SettingsActivity"
             android:label="@string/title_activity_settings"
             android:parentActivityName="nl.avans.android.todos.presentation.MainActivity" >
@@ -48,6 +41,7 @@
                 android:value=".presentation.MainActivity" />
         </activity>
         <activity android:name="nl.avans.android.todos.presentation.LoginActivity" />
+        <activity android:name="nl.avans.android.todos.presentation.RegisterActivity" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

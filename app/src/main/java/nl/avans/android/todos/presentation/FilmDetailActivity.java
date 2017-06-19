@@ -1,51 +1,147 @@
 package nl.avans.android.todos.presentation;
 
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import nl.avans.android.todos.R;
 import nl.avans.android.todos.domain.Film;
+import nl.avans.android.todos.interfaces.RequestInterface;
 
-import static nl.avans.android.todos.presentation.MainActivity.TODO_DATA;
+import static nl.avans.android.todos.R.id.fab;
 
 /**
  * Created by maartje on 19-6-2017.
  */
 
-public class FilmDetailActivity  extends AppCompatActivity {
+public class FilmDetailActivity  extends AppCompatActivity implements RequestInterface {
     private TextView textTitle;
     private TextView textYear;
     private TextView textRating;
+    private String token;
+    private Film film;
 
     public final String TAG = this.getClass().getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_to_do_detail);
+        setContentView(R.layout.list_to_do_row);
 
         textTitle = (TextView) findViewById(R.id.textDetailToDoTitle);
+        textYear = (TextView) findViewById(R.id.filmYear);
+        textRating = (TextView) findViewById(R.id.filmRating);
 
 
         Bundle extras = getIntent().getExtras();
+        film = (Film) extras.get("film");
+        token = extras.getString("token");
 
-        Film film = (Film) extras.getSerializable(TODO_DATA);
-        Log.i(TAG, film.toString());
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle(film.getTitle());
+        setSupportActionBar(toolbar);
 
-        textTitle.setText(film.getTitle());
+        ActionBar actionBar = getSupportActionBar();
+        if(actionBar != null) {
+            actionBar.setDisplayHomeAsUpEnabled(true);
+        }
+
+        loadTextviews();
+        loadMovieDataToTextView(film);
+
 
     }
 
+
+
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == android.R.id.home) {
-            finish(); // or go to another activity
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
+    public boolean onSupportNavigateUp(){
+        finish();
+        return true;
+    }
+
+    //@Override
+    //public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+      //  if(film.getFilmId() != 0) {
+        //    getMenuInflater().inflate(R.menu.menu_detail, menu);
+        //}
+        //return true;
+    //}
+
+ //   @Override
+    //public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+      //  int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        //if (id == R.id.action_delete) {
+          //  RESTApiV1 restApiV1 = new RESTApiV1(this);
+            //restApiV1.deleteMovie(movie, token, this);
+            //return true;
+        //}
+
+        //return super.onOptionsItemSelected(item);
+    //}
+
+    private void loadTextviews(){
+        textTitle= (TextView) findViewById(R.id.filmTitle);
+        textYear = (TextView) findViewById(R.id.filmYear);
+        textRating = (TextView) findViewById(R.id.filmRating);
+    }
+
+    private void loadMovieDataToTextView(Film film){
+        textTitle.setText(film.getTitle());
+        textYear.setText(film.getYear());
+        textRating.setText(film.getRating());
+    }
+
+
+
+   // @Override
+    //public void onClick(View view) {
+      //  switch (view.getId()){
+        //    case R.id.fab:
+          //      handleFabClick();
+            //    break;
+        //}
+    //}
+
+
+    @NonNull
+    private String getStringFromEditText(EditText editText){
+        return editText.getText().toString();
+    }
+
+    @NonNull
+    private Integer getIntegerFromEditText(EditText editText){
+        return Integer.parseInt(getStringFromEditText(editText));
+    }
+
+    @NonNull
+    private Double getDoubleFromEditText(EditText editText){
+        return Double.parseDouble(getStringFromEditText(editText));
+    }
+
+    @Override
+    public void onSuccess(String string) {
+        finish();
+    }
+
+    @Override
+    public void onError() {
+        Toast.makeText(this, "Could not delete this movie!", Toast.LENGTH_SHORT).show();
     }
 }

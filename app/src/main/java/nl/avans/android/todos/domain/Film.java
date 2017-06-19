@@ -10,12 +10,14 @@ public class Film implements Serializable {
     private String title;
     private Integer year;
     private String rating;
+    private int film_id;
 
 
     public Film(String title, Integer year, String rating) {
         this.title = title;
         this.year = year;
         this.rating = rating;
+        this.film_id = film_id;
     }
 
     public Film(String string, String jsonObjectString, String rating){}
@@ -26,10 +28,18 @@ public class Film implements Serializable {
     public void setYear(Integer year) { this.year = year; }
     public String getRating() { return rating; }
     public void setRating(String rating) { this.rating = rating; }
+    public int getFilm_Id() {
+        return film_id;
+    }
+
+    public void setFilm_id(int film_id) {
+        this.film_id = film_id;
+    }
+
 
     @Override
     public String toString() {
         return "Film{" + "title='" + title + '\'' + ", year='" + year + '\'' +
-                ", rating='" + rating + '}';
+                ", rating='" + rating + '\'' + ", film Id='" + film_id + '}';
     }
 }

@@ -1,4 +1,4 @@
-#Mon Jun 19 19:05:05 CEST 2017
-base.0=C\:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
+#Mon Jun 19 22:52:46 CEST 2017
+base.0=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7
 renamed.0=classes.dex
-file.0=C\:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex
+file.0=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_7\\classes.dex
