@@ -1,134 +1,46 @@
 [
     {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_default.xml"
     },
     {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_seek_thumb.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
-        "source": "/Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/res/color-v23/design_tint_password_toggle.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_switch_thumb.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_spinner.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_edittext.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_spinner.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_spinner.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_switch_track.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\color-v23\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_color_highlight_material.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_text_material.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_btn_colored_text_material.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_tint_default.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/color-v23/abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
-        "source": "/Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/res/color-v23/design_tint_password_toggle.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     }
 ]
