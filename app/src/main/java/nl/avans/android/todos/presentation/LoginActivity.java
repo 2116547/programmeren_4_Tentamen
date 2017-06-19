@@ -71,7 +71,7 @@ public class LoginActivity extends AppCompatActivity {
         });
     }
 
-    private void handleLogin(String username, String password) {
+    private void handleLogin(final String username, String password) {
         //
         // Maak een JSON object met username en password. Dit object sturen we mee
         // als request body (zoals je ook met Postman hebt gedaan)
