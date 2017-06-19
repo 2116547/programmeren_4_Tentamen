@@ -12,12 +12,12 @@
         "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_info_black_24dp.xml",
         "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\drawable\\ic_info_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_menu_camera.xml",

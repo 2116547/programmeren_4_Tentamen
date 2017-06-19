@@ -57,9 +57,9 @@ public class MainActivity extends AppCompatActivity
         // eerst opnieuw inloggen.
         intent = getIntent();
 
-        //customerId = (Integer) intent.getIntExtra( "id", customerId);
+        //customerId = (Integer) int.getIntExtra( "id", customerId);
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_filmlist);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -202,7 +202,6 @@ public class MainActivity extends AppCompatActivity
 
         Film film = films.get(position);
         Intent intent = new Intent(getApplicationContext(), FilmDetailActivity.class);
-        intent.putExtra("ID", customerId);
         intent.putExtra(FILM_DATA, film);
         startActivity(intent);
     }

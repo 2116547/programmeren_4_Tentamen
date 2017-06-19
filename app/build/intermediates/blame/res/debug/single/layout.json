@@ -12,12 +12,12 @@
         "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
