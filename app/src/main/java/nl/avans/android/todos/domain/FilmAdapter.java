@@ -59,7 +59,7 @@ public class FilmAdapter extends BaseAdapter {
 
             // Maak een ViewHolder en koppel de schermvelden aan de velden uit onze eigen row.
             viewHolder = new ViewHolder();
-            viewHolder.textViewTitle = (TextView) convertView.findViewById(R.id.rowToDoTitle);
+            viewHolder.textViewTitle = (TextView) convertView.findViewById(R.id.filmTitle);
             // viewHolder.textViewContents = (TextView) convertView.findViewById(R.id.rowToDoDate);
 
             // Sla de viewholder op in de convertView

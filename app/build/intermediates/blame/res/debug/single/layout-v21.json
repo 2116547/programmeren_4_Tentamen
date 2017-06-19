@@ -1,50 +1,18 @@
 [
     {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "/Users/joep/Downloads/Joep en Maartje/android-todolist/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/res/layout-v21/notification_action.xml"
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     }
 ]

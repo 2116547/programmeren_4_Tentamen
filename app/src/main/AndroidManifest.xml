@@ -16,18 +16,6 @@
             android:name=".presentation.MainActivity"
             android:label="Tentamen Programmeren 4"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".presentation.ToDoDetailActivity"
-            android:parentActivityName=".presentation.MainActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value=".presentation.MainActivity" />
         </activity>
         <activity
             android:name=".presentation.SettingsActivity"
@@ -37,7 +25,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".presentation.MainActivity" />
         </activity>
-        <activity android:name=".presentation.LoginActivity" />
+        <activity android:name=".presentation.LoginActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+            </activity>
         <activity android:name=".presentation.RegisterActivity"></activity>
     </application>
 
