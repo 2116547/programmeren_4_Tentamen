@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.NetworkResponse;
 import com.android.volley.Request;
@@ -21,6 +22,10 @@ import com.android.volley.toolbox.JsonObjectRequest;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 import nl.avans.android.todos.R;
 import nl.avans.android.todos.service.Config;
@@ -35,6 +40,8 @@ public class LoginActivity extends AppCompatActivity {
 
     private String mUsername;
     private String mPassword;
+    private Context context;
+
 
     public final String TAG = this.getClass().getSimpleName();
 
