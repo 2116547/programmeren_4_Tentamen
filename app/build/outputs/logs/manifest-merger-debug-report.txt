@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:2:1-43:12
+ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:3:5-37
 		INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.
 	android:name
 		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:8:5-41:19
+ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:8:5-42:19
 MERGED from [com.android.support:design:25.3.1] /Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/joep/.android/build-cache/bd90d87546a69b2a4bccba1fcd9f64665fdd0021/output/AndroidManifest.xml:26:5-20
@@ -87,9 +87,13 @@ ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.
 	android:name
 		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:33:13-58
 activity#nl.avans.android.todos.presentation.LoginActivity
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:40:9-73
+ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:40:9-64
 	android:name
 		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:40:19-61
+activity#nl.avans.android.todos.presentation.RegisterActivity
+ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:41:9-76
+	android:name
+		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:41:19-64
 uses-sdk
 INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] /Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/AndroidManifest.xml:21:5-23:62

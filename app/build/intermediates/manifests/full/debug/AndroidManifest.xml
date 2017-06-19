@@ -48,6 +48,7 @@
                 android:value=".presentation.MainActivity" />
         </activity>
         <activity android:name="nl.avans.android.todos.presentation.LoginActivity" />
+        <activity android:name="nl.avans.android.todos.presentation.RegisterActivity" />
     </application>
 
 </manifest>

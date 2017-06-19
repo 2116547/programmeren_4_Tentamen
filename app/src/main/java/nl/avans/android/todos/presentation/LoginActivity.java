@@ -90,6 +90,8 @@ public class LoginActivity extends AppCompatActivity {
                             // txtLoginErrorMsg.setText("Response: " + response.toString());
                             displayMessage("Succesvol ingelogd!");
 
+
+
                             // We hebben nu het token. We kiezen er hier voor om
                             // het token in SharedPreferences op te slaan. Op die manier
                             // is het token tussen app-stop en -herstart beschikbaar -

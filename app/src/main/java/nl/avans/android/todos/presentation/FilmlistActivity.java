@@ -20,6 +20,7 @@ import nl.avans.android.todos.domain.Film;
  */
 
 public class FilmlistActivity extends AppCompatActivity {
+
     private ArrayList<Film> filmArrayList = new ArrayList<Film>();
     private ListView filmListView;
     private Button zoekKnop;
@@ -31,9 +32,9 @@ public class FilmlistActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_filmlist);
 
-        //zoekKnop = (Button) findViewById(R.id.zoekKnop);
-        //zoekKnop.setOnClickListener((View.OnClickListener) this);
-        //zoekVeld = (EditText) findViewById(R.id.zoekVak);
+        zoekKnop = (Button) findViewById(R.id.zoekKnop);
+        zoekKnop.setOnClickListener((View.OnClickListener) this);
+        zoekVeld = (EditText) findViewById(R.id.zoekVak);
 
         filmListView = (ListView) findViewById(R.id.filmList);
         filmListView.setOnItemClickListener((AdapterView.OnItemClickListener) this);
