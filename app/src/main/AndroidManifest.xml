@@ -37,7 +37,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".presentation.MainActivity" />
         </activity>
-        <activity android:name=".presentation.LoginActivity"></activity>
+        <activity android:name=".presentation.LoginActivity" />
+        <activity android:name=".presentation.RegisterActivity"></activity>
     </application>
 
 </manifest>

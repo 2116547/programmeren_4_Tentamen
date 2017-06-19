@@ -9,7 +9,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.DefaultRetryPolicy;
@@ -26,94 +25,64 @@ import nl.avans.android.todos.R;
 import nl.avans.android.todos.service.Config;
 import nl.avans.android.todos.service.VolleyRequestQueue;
 
-public class LoginActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
 
-    private EditText editTextUsername;
-    private EditText editTextPassword;
-    private TextView txtLoginErrorMsg;
-    private Button btnLogin;
-
-    private String mUsername;
-    private String mPassword;
+    EditText voornaamEdit, achternaamEdit, emailEdit, wachtwoordEdit;
+    Button registreerButton;
 
     public final String TAG = this.getClass().getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_register);
 
-        TextView register = (TextView) findViewById(R.id.link_to_register);
-        register.setOnClickListener(new View.OnClickListener() {
-
+        voornaamEdit = (EditText) findViewById(R.id.voornaamEdit);
+        achternaamEdit = (EditText) findViewById(R.id.achternaamEdit);
+        emailEdit = (EditText) findViewById(R.id.mailEdit);
+        wachtwoordEdit = (EditText) findViewById(R.id.wachtwoordEdit);
+        registreerButton = (Button) findViewById(R.id.registerButton);
+        registreerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
-                startActivity(intent);
-            }
-        });
 
-        editTextUsername = (EditText) findViewById(R.id.edittextUsername);
-        editTextPassword = (EditText) findViewById(R.id.edittextPassword);
-        txtLoginErrorMsg = (TextView) findViewById(R.id.txtLoginErrorMessage);
-        btnLogin = (Button) findViewById(R.id.btnLogin);
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mUsername = editTextUsername.getText().toString();
-                mPassword = editTextPassword.getText().toString();
-                txtLoginErrorMsg.setText("");
+                String voornaam, achternaam, email, password;
 
-                // TODO Checken of username en password niet leeg zijn
+                voornaam = voornaamEdit.getText().toString();
+                achternaam = achternaamEdit.getText().toString();
+                email = emailEdit.getText().toString();
+                password = wachtwoordEdit.getText().toString();
 
-                handleLogin(mUsername, mPassword);
+                handleRegister(voornaam, achternaam, email, password);
             }
         });
     }
 
-    private void handleLogin(String username, String password) {
+    private void handleRegister(String first_name, String last_name, String email, String password) {
         //
         // Maak een JSON object met username en password. Dit object sturen we mee
         // als request body (zoals je ook met Postman hebt gedaan)
         //
-        String body = "{\"username\":\"" + username + "\",\"password_user\":\"" + password + "\"}";
-        Log.i(TAG, "handleLogin - body = " + body);
+        String body = "{\"first_name\":\"" + first_name + "\",\"last_name\":\"" + last_name + "\",\"email\":\"" + email + "\",\"password_user\":\"" + password + "\"}";
+        Log.i(TAG, "handleRegister - body = " + body);
 
         try {
             JSONObject jsonBody = new JSONObject(body);
             JsonObjectRequest jsObjRequest = new JsonObjectRequest
-                    (Request.Method.POST, Config.URL_LOGIN, jsonBody, new Response.Listener<JSONObject>() {
+                    (Request.Method.POST, Config.URL_REGISTER, jsonBody, new Response.Listener<JSONObject>() {
 
                         @Override
                         public void onResponse(JSONObject response) {
                             // Succesvol response - dat betekent dat we een geldig token hebben.
                             // txtLoginErrorMsg.setText("Response: " + response.toString());
-                            displayMessage("Succesvol ingelogd!");
+                            displayMessage("Succesvol geregistreerd!");
 
-                            // We hebben nu het token. We kiezen er hier voor om
-                            // het token in SharedPreferences op te slaan. Op die manier
-                            // is het token tussen app-stop en -herstart beschikbaar -
-                            // totdat het token expired.
-                            try {
-                                String token = response.getString("token");
+                            // Start the main activity, and close the login activity
+                            Intent login = new Intent(getApplicationContext(), LoginActivity.class);
+                            startActivity(login);
+                            // Close the current activity
+                            finish();
 
-                                Context context = getApplicationContext();
-                                SharedPreferences sharedPref = context.getSharedPreferences(
-                                        getString(R.string.preference_file_key), Context.MODE_PRIVATE);
-                                SharedPreferences.Editor editor = sharedPref.edit();
-                                editor.putString(getString(R.string.saved_token), token);
-                                editor.commit();
-
-                                // Start the main activity, and close the login activity
-                                Intent main = new Intent(getApplicationContext(), MainActivity.class);
-                                startActivity(main);
-                                // Close the current activity
-                                finish();
-
-                            } catch (JSONException e) {
-                                // e.printStackTrace();
-                                Log.e(TAG, e.getMessage());
-                            }
                         }
                     }, new Response.ErrorListener() {
 
@@ -131,10 +100,22 @@ public class LoginActivity extends AppCompatActivity {
             // Access the RequestQueue through your singleton class.
             VolleyRequestQueue.getInstance(this).addToRequestQueue(jsObjRequest);
         } catch (JSONException e) {
-            txtLoginErrorMsg.setText(e.getMessage());
+            //txtLoginErrorMsg.setText(e.getMessage());
             // e.printStackTrace();
         }
         return;
+    }
+
+    public void register(String vn, String an, String em, String pw) throws JSONException {
+        JSONObject json = new JSONObject();
+        json.put("first_name", vn);
+        json.put("last_name", an);
+        json.put("email", em);
+        json.put("password_user", pw);
+
+        Log.d("registreer", json.toString());
+
+        //post(Config.URL_REGISTER, json.toString());
     }
 
     public void handleErrorResponse(VolleyError error) {
@@ -156,11 +137,12 @@ public class LoginActivity extends AppCompatActivity {
             }
         } else if(error instanceof com.android.volley.NoConnectionError) {
             Log.e(TAG, "handleErrorResponse: server was niet bereikbaar");
-            txtLoginErrorMsg.setText(getString(R.string.error_server_offline));
+            //txtLoginErrorMsg.setText(getString(R.string.error_server_offline));
         } else {
             Log.e(TAG, "handleErrorResponse: error = " + error);
         }
     }
+
 
     public String trimMessage(String json, String key){
         Log.i(TAG, "trimMessage: json = " + json);
