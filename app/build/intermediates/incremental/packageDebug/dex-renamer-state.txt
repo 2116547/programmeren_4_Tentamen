@@ -1,0 +1,7 @@
+#Mon Jun 19 19:05:05 CEST 2017
+base.0=C\:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c11f40c1d36c0cffd9af302185f1c5eea58ccbf2
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e1b067e473d97835f33718c32205bac6d5a12ecc\\classes.dex
+base.1=C\:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_e1b067e473d97835f33718c32205bac6d5a12ecc
+file.0=C\:\\Joep en Maartje\\android-todolist\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_c11f40c1d36c0cffd9af302185f1c5eea58ccbf2\\classes.dex
