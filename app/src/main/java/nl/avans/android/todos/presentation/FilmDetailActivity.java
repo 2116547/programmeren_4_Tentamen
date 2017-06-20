@@ -1,5 +1,6 @@
 package nl.avans.android.todos.presentation;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.FloatingActionButton;
@@ -41,6 +42,13 @@ public class FilmDetailActivity  extends AppCompatActivity implements RequestInt
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_film_detail);
 
+        Bundle extras = getIntent().getExtras();
+        Film film = (Film) extras.getSerializable("FILM");
+       // film = (Film) extras.get("FILM");
+        token = extras.getString("token");
+
+
+
         textTitle = (TextView) findViewById(R.id.filmTitle);
         textFilmId = (TextView) findViewById(R.id.filmID);
         textYear = (TextView) findViewById(R.id.filmYear);
@@ -49,9 +57,14 @@ public class FilmDetailActivity  extends AppCompatActivity implements RequestInt
         textFilmDescription = (TextView) findViewById(R.id.filmDescription);
 
 
-        Bundle extras = getIntent().getExtras();
-        film = (Film) extras.get("FILM");
-        token = extras.getString("token");
+       // textTitle.setText(film.getTitle());
+       // textYear.setText(film.getYear());
+       // textRating.setText(film.getRating());
+       // textFilmId.setText(film.getFilm_Id());
+       // textFilmLenght.setText(film.getFilmLength());
+       // textFilmDescription.setText(film.getFilmDescription());
+
+
 
    //     Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 //        toolbar.setTitle(film.getTitle());

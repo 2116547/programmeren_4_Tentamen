@@ -19,12 +19,14 @@ import nl.avans.android.todos.domain.Film;
  * Created by maartje on 19-6-2017.
  */
 
-public class FilmlistActivity extends AppCompatActivity {
+public class FilmlistActivity extends AppCompatActivity implements AdapterView.OnItemClickListener {
     private ArrayList<Film> filmArrayList = new ArrayList<Film>();
     private ListView filmListView;
     private Button zoekKnop;
     private EditText zoekVeld;
     private String zoekURL, zoekInvoer;
+
+    public final String TAG = this.getClass().getSimpleName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,26 +38,13 @@ public class FilmlistActivity extends AppCompatActivity {
         //zoekVeld = (EditText) findViewById(R.id.zoekVak);
 
         filmListView = (ListView) findViewById(R.id.filmList);
-        filmListView.setOnItemClickListener((AdapterView.OnItemClickListener) this);
+        filmListView.setOnItemClickListener(this);
 
 
     }
 
-    public void onClick(View view){
 
-        zoekInvoer = zoekVeld.getText().toString();
 
-        if(!zoekInvoer.matches("")) {
-
-            filmArrayList.clear();
-            //albumAdapter.notifyDataSetChanged();
-            zoekInvoer = zoekVeld.getText().toString();
-            zoekURL = "http://localhost:3000/api/v1/films/" + zoekInvoer;
-            zoekVeld.setText("");
-            //zoekFilms(zoekURL);
-
-        }
-    }
 
 
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l){
@@ -63,6 +52,7 @@ public class FilmlistActivity extends AppCompatActivity {
         Film film = (Film) filmArrayList.get(position);
         Intent intent = new Intent(getApplicationContext(), FilmDetailActivity.class);
         intent.putExtra("FILM", film);
+        Log.d(TAG, film.getFilm_Id() + film.getFilmDescription() + "");
         startActivity(intent);
     }
 }
