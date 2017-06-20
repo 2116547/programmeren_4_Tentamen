@@ -59,7 +59,9 @@ public class FilmAdapter extends BaseAdapter {
 
             // Maak een ViewHolder en koppel de schermvelden aan de velden uit onze eigen row.
             viewHolder = new ViewHolder();
-            viewHolder.textViewTitle = (TextView) convertView.findViewById(R.id.rowToDoTitle);
+            viewHolder.textViewTitle = (TextView) convertView.findViewById(R.id.filmTitle);
+            viewHolder.textViewYear = (TextView) convertView.findViewById(R.id.filmYear);
+            viewHolder.textViewRating = (TextView) convertView.findViewById(R.id.filmRating);
             // viewHolder.textViewContents = (TextView) convertView.findViewById(R.id.rowToDoDate);
 
             // Sla de viewholder op in de convertView
@@ -71,12 +73,14 @@ public class FilmAdapter extends BaseAdapter {
 
         Film bolFilm = bolFilmArrayList.get(position);
         viewHolder.textViewTitle.setText(bolFilm.getTitle());
+        viewHolder.textViewYear.setText(bolFilm.getYear());
+        viewHolder.textViewRating.setText(bolFilm.getRating());
 
         return convertView;
     }
 
     private static class ViewHolder {
-        public TextView textViewTitle;
+        public TextView textViewTitle, textViewYear, textViewRating;
         // public TextView textViewContents;
     }
 }

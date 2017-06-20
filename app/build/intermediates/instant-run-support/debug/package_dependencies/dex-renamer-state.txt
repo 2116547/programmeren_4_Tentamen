@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Mon Jun 19 20:01:38 CEST 2017
+=======
+#Mon Jun 19 22:52:46 CEST 2017
+>>>>>>> developer
 file.2=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9d30a52ac39d936293ddc0efc45664285c4b59a7\\classes.dex
 base.2=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9d30a52ac39d936293ddc0efc45664285c4b59a7
 file.1=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_699c1e13b627688e2d1175710ad87176de427acf\\classes.dex

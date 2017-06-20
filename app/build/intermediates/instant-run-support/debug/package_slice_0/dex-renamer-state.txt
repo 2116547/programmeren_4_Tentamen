@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #Mon Jun 19 20:01:38 CEST 2017
+=======
+#Mon Jun 19 22:52:46 CEST 2017
+>>>>>>> developer
 base.0=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0
 renamed.0=classes.dex
 file.0=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_0\\classes.dex

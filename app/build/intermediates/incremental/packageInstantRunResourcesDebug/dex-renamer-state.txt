@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 #Mon Jun 19 20:01:31 CEST 2017
+=======
+#Tue Jun 20 00:14:30 CEST 2017
+>>>>>>> developer

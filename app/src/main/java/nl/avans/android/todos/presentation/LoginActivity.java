@@ -43,6 +43,16 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        TextView register = (TextView) findViewById(R.id.link_to_register);
+        register.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+                startActivity(intent);
+            }
+        });
+
         editTextUsername = (EditText) findViewById(R.id.edittextUsername);
         editTextPassword = (EditText) findViewById(R.id.edittextPassword);
         txtLoginErrorMsg = (TextView) findViewById(R.id.txtLoginErrorMessage);

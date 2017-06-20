@@ -12,12 +12,21 @@
         "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
         "source": "C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\layout\\design_layout_tab_icon.xml"
+=======
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout\\select_dialog_item_material.xml"
+>>>>>>> developer
     },
     {
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
@@ -208,6 +217,7 @@
         "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_to_do_detail.xml",
         "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\layout\\activity_to_do_detail.xml"
     },
@@ -228,6 +238,32 @@
         "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\layout\\list_to_do_row.xml"
     },
     {
+=======
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_to_do_detail.xml",
+        "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\layout\\activity_to_do_detail.xml"
+    },
+    {
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_to_do_row.xml",
+        "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\layout\\list_to_do_row.xml"
+    },
+    {
+>>>>>>> developer
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\layout\\design_bottom_navigation_item.xml"
     }
