@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-#Mon Jun 19 20:01:39 CEST 2017
-=======
-#Tue Jun 20 00:14:30 CEST 2017
->>>>>>> developer
+#Tue Jun 20 10:43:11 CEST 2017
 base.0=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_02758f80bf20d490a6a643358351a4e820ba070d
 renamed.1=classes.dex
 renamed.0=classes2.dex

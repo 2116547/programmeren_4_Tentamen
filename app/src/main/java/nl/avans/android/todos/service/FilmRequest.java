@@ -30,7 +30,6 @@ public class FilmRequest {
 
     // De aanroepende class implementeert deze interface.
     private FilmRequest.FilmListener listener;
-    int offset = 0, count = 10;
 
     /**
      * Constructor
@@ -59,7 +58,7 @@ public class FilmRequest {
             Log.i(TAG, "Token gevonden, we gaan het request uitvoeren");
             JsonObjectRequest jsObjRequest = new JsonObjectRequest(
                     Request.Method.GET,
-                    "https://programmeren4-practicum-server.herokuapp.com/api/v1/films?offset=" + offset + "&count=" + count,
+                    "https://programmeren-4-tentamen.herokuapp.com/api/v1/film",
                     null,
                     new Response.Listener<JSONObject>() {
                         @Override

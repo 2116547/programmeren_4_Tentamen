@@ -14,7 +14,7 @@ import java.util.ArrayList;
  * Deze class vertaalt JSON objecten naar (lijsten van) ToDos.
  */
 public class FilmMapper {
-    public static final String FilmTitle = "Titel";
+    public static final String FilmTitle = "title";
     public static final String Year = "release_year";
     public static final String Rating = "rating";
     public static final String Film_Result = "result";

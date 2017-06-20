@@ -36,6 +36,8 @@
                 android:value=".presentation.MainActivity" />
         </activity>
         <activity android:name="nl.avans.android.todos.presentation.LoginActivity" >
+            <activity android:name="nl.avans.android.todos.presentation.FilmlistActivity" />
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

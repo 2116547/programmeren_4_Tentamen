@@ -16,11 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-<<<<<<< HEAD
-        sha1="b52be0cc566775eaa68233b49e721bc92ca19d60">
-=======
-        sha1="7666b6d9915c080eae2c63fcb45162934e516981">
->>>>>>> developer
+        sha1="eecd94740d64871fab60f0cba83c0e959e790b80">
         <dex dex="C:\programmeren_4_tentamen\programmeren_4_tentamen\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_02758f80bf20d490a6a643358351a4e820ba070d\classes.dex" />
     </item>
 
