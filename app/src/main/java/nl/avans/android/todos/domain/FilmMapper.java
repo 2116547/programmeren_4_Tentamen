@@ -1,6 +1,7 @@
 package nl.avans.android.todos.domain;
 
 import android.util.Log;
+import android.widget.TextView;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.ISODateTimeFormat;
@@ -18,6 +19,9 @@ public class FilmMapper {
     public static final String Year = "release_year";
     public static final String Rating = "rating";
     public static final String Film_Result = "result";
+    public static final String FilmId = "film_id";
+    public static final String filmLenght = "length";
+    public static final String filmDescription = "description";
 
     public static ArrayList<Film> mapFilmList(JSONObject response){
         ArrayList<Film> result = new ArrayList<>();
@@ -31,7 +35,10 @@ public class FilmMapper {
                 Film film = new Film(
                         jsonObject.getString(FilmTitle),
                         jsonObject.getString(Rating),
-                        jsonObject.getString(Year)
+                        jsonObject.getString(Year),
+                        jsonObject.getString(FilmId),
+                        jsonObject.getString(filmLenght),
+                        jsonObject.getString(filmDescription)
                 );
 
                 result.add(film);

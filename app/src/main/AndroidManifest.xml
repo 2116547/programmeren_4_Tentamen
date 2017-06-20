@@ -34,6 +34,7 @@
         </intent-filter>
             </activity>
         <activity android:name=".presentation.RegisterActivity"></activity>
+        <activity android:name=".presentation.FilmDetailActivity"></activity>
     </application>
 
 </manifest>

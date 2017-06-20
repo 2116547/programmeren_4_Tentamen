@@ -36,23 +36,6 @@
             android:text="filmRating"
             android:textSize="12sp" />
 
-        <TextView
-            android:id="@+id/rentalDuration"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="rentalDuration"
-            android:textAlignment="textEnd"
-            android:textColor="@android:color/black"
-            android:textSize="12sp" />
-
-        <TextView
-            android:id="@+id/rentalRate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="rentalRate"
-            android:textAlignment="textEnd"
-            android:textColor="@android:color/black"
-            android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/imageView"

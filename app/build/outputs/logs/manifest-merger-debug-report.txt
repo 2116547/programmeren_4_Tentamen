@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:3:5-37
 		INJECTED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml
@@ -22,7 +22,7 @@ ADDED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\Andro
 	android:name
 		ADDED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:8:5-37:19
+ADDED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:8:5-38:19
 MERGED from [com.android.support:design:25.3.1] C:\Users\maartje\.android\build-cache\2e848b97aecb074cc96213c374876c4f9189f30e\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\maartje\.android\build-cache\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\maartje\.android\build-cache\91ef9fbb42591a3a717ee312bce721f4092d1349\output\AndroidManifest.xml:26:5-20
@@ -92,6 +92,10 @@ activity#nl.avans.android.todos.presentation.RegisterActivity
 ADDED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:36:9-76
 	android:name
 		ADDED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:36:19-64
+activity#nl.avans.android.todos.presentation.FilmDetailActivity
+ADDED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:37:9-78
+	android:name
+		ADDED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:37:19-66
 uses-sdk
 INJECTED from C:\programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] C:\Users\maartje\.android\build-cache\2e848b97aecb074cc96213c374876c4f9189f30e\output\AndroidManifest.xml:21:5-23:62

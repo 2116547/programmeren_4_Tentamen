@@ -45,6 +45,7 @@
             </intent-filter>
         </activity>
         <activity android:name="nl.avans.android.todos.presentation.RegisterActivity" />
+        <activity android:name="nl.avans.android.todos.presentation.FilmDetailActivity" />
     </application>
 
 </manifest>

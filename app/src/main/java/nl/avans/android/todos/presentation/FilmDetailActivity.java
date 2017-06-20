@@ -28,7 +28,10 @@ public class FilmDetailActivity  extends AppCompatActivity implements RequestInt
     private TextView textTitle;
     private TextView textYear;
     private TextView textRating;
+    private TextView textFilmId;
+    private TextView textFilmLenght;
     private String token;
+    private TextView textFilmDescription;
     private Film film;
 
     public final String TAG = this.getClass().getSimpleName();
@@ -36,28 +39,25 @@ public class FilmDetailActivity  extends AppCompatActivity implements RequestInt
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.list_to_do_row);
+        setContentView(R.layout.activity_film_detail);
 
-        textTitle = (TextView) findViewById(R.id.textDetailToDoTitle);
+        textTitle = (TextView) findViewById(R.id.filmTitle);
+        textFilmId = (TextView) findViewById(R.id.filmID);
         textYear = (TextView) findViewById(R.id.filmYear);
+        textFilmLenght = (TextView) findViewById(R.id.filmLength);
         textRating = (TextView) findViewById(R.id.filmRating);
+        textFilmDescription = (TextView) findViewById(R.id.filmDescription);
 
 
         Bundle extras = getIntent().getExtras();
-        film = (Film) extras.get("film");
+        film = (Film) extras.get("FILM");
         token = extras.getString("token");
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        toolbar.setTitle(film.getTitle());
-        setSupportActionBar(toolbar);
+   //     Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+//        toolbar.setTitle(film.getTitle());
+     //   setSupportActionBar(toolbar);
 
-        ActionBar actionBar = getSupportActionBar();
-        if(actionBar != null) {
-            actionBar.setDisplayHomeAsUpEnabled(true);
-        }
 
-        loadTextviews();
-        loadMovieDataToTextView(film);
 
 
     }
@@ -95,18 +95,6 @@ public class FilmDetailActivity  extends AppCompatActivity implements RequestInt
 
         //return super.onOptionsItemSelected(item);
     //}
-
-    private void loadTextviews(){
-        textTitle= (TextView) findViewById(R.id.filmTitle);
-        textYear = (TextView) findViewById(R.id.filmYear);
-        textRating = (TextView) findViewById(R.id.filmRating);
-    }
-
-    private void loadMovieDataToTextView(Film film){
-        textTitle.setText(film.getTitle());
-        textYear.setText(film.getYear());
-        textRating.setText(film.getRating());
-    }
 
 
 
