@@ -15,11 +15,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.net.FileNameMap;
+
 import nl.avans.android.todos.R;
 import nl.avans.android.todos.domain.Film;
 import nl.avans.android.todos.interfaces.RequestInterface;
 
 import static nl.avans.android.todos.R.id.fab;
+import static nl.avans.android.todos.presentation.MainActivity.FILM_DATA;
 
 /**
  * Created by maartje on 19-6-2017.
@@ -42,13 +45,6 @@ public class FilmDetailActivity  extends AppCompatActivity implements RequestInt
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_film_detail);
 
-        Bundle extras = getIntent().getExtras();
-        Film film = (Film) extras.getSerializable("FILM");
-       // film = (Film) extras.get("FILM");
-        token = extras.getString("token");
-
-
-
         textTitle = (TextView) findViewById(R.id.filmTitle);
         textFilmId = (TextView) findViewById(R.id.filmID);
         textYear = (TextView) findViewById(R.id.filmYear);
@@ -56,13 +52,18 @@ public class FilmDetailActivity  extends AppCompatActivity implements RequestInt
         textRating = (TextView) findViewById(R.id.filmRating);
         textFilmDescription = (TextView) findViewById(R.id.filmDescription);
 
+        Intent intent = getIntent();
 
-       // textTitle.setText(film.getTitle());
-       // textYear.setText(film.getYear());
-       // textRating.setText(film.getRating());
-       // textFilmId.setText(film.getFilm_Id());
-       // textFilmLenght.setText(film.getFilmLength());
-       // textFilmDescription.setText(film.getFilmDescription());
+        Bundle extras = getIntent().getExtras();
+
+        final Film film = (Film) extras.getSerializable(FILM_DATA);
+
+       textTitle.setText(film.getTitle());
+       textYear.setText(film.getYear());
+       textRating.setText(film.getRating());
+       textFilmId.setText(film.getFilm_Id());
+       textFilmLenght.setText(film.getFilmLength());
+       textFilmDescription.setText(film.getFilmDescription());
 
 
 
