@@ -68,6 +68,10 @@
         "source": "C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
+        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\detail_film_list.xml",
+        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\layout\\detail_film_list.xml"
+    },
+    {
         "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_filmlist.xml",
         "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\layout\\activity_filmlist.xml"
     },
@@ -226,6 +230,10 @@
     {
         "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rental.xml",
+        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\layout\\activity_rental.xml"
     },
     {
         "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",

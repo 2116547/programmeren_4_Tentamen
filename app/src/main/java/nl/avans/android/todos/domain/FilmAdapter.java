@@ -73,7 +73,7 @@ public class FilmAdapter extends BaseAdapter {
 
         Film bolFilm = bolFilmArrayList.get(position);
         viewHolder.textViewTitle.setText(bolFilm.getTitle());
-        viewHolder.textViewYear.setText(bolFilm.getYear());
+        viewHolder.textViewYear.setText(bolFilm.getRelease_year());
         viewHolder.textViewRating.setText(bolFilm.getRating());
 
         return convertView;
