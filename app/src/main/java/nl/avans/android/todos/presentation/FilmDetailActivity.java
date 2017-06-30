@@ -42,7 +42,7 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
     public final String TAG = this.getClass().getSimpleName();
 
 
-    public final static String MOVIE_DATA = "FILM";
+    public final static String FILM_DATA = "FILMS";
 
     public static final int MY_REQUEST_CODE = 1234;
 
@@ -63,29 +63,25 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
 
         title = (TextView) findViewById(R.id.filmTitle);
         rating = (TextView) findViewById(R.id.filmRating);
-        status = (TextView) findViewById(R.id.available);
+       // status = (TextView) findViewById(R.id.available);
 
         listView = (ListView) findViewById(R.id.filmDetaillist);
         listView.setOnItemClickListener(this);
-
-
 
         filmAdapter = new RentalAdapter(this, films);
         listView.setAdapter(filmAdapter);
 
         Bundle extras = getIntent().getExtras();
 
-        Film film = (Film) extras.getSerializable(MOVIE_DATA);
+        Film film = (Film) extras.getSerializable(FILM_DATA);
         Log.d(TAG, film.toString());
 
         film_id = film.getFilm_id();
 
         title.setText(film.getTitle());
-        desription.setText(film.getDescription());
-        release.setText(String.valueOf(film.getRelease_year()));
         rating.setText(film.getRating());
 
-        getMovies();
+        getFilms();
 
 
 
@@ -112,7 +108,7 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
             Toast toast = Toast.makeText(context, text, duration);
             toast.show();
 
-            getMovies();
+            getFilms();
         }
 
 
@@ -144,7 +140,7 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
 
     }
 
-    private void getMovies(){
+    private void getFilms(){
         FilmIdRequest request = new FilmIdRequest(getApplicationContext(), this);
         request.handleGetAllFilmsId(film_id);
     }

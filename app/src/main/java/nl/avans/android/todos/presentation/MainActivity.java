@@ -230,6 +230,7 @@ public class MainActivity extends AppCompatActivity
      */
     @Override
     public void onFilmsAvailable(Film film) {
+        films.clear();
         films.add(film);
         FilmAdapter.notifyDataSetChanged();
     }
