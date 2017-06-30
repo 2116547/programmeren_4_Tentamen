@@ -47,7 +47,7 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
     public static final int MY_REQUEST_CODE = 1234;
 
     private ListView listView;
-    private BaseAdapter movieAdapter;
+    private BaseAdapter filmAdapter;
     private ArrayList<Film> films = new ArrayList<>();
     private int film_id;
     private TextView status;
@@ -70,8 +70,8 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
 
 
 
-        movieAdapter = new RentalAdapter(this, films);
-        listView.setAdapter(movieAdapter);
+        filmAdapter = new RentalAdapter(this, films);
+        listView.setAdapter(filmAdapter);
 
         Bundle extras = getIntent().getExtras();
 
@@ -103,7 +103,7 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
 
             FilmIdRequest request = new FilmIdRequest(getApplicationContext(), this);
             request.handlePostFilm(film);
-            movieAdapter.notifyDataSetChanged();
+            filmAdapter.notifyDataSetChanged();
 
             Context context = getApplicationContext();
             CharSequence text = "Movie: " + film.getTitle() + " saved";
@@ -129,7 +129,7 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
         for(int i = 0; i < filmArrayList.size(); i++) {
             films.add(filmArrayList.get(i));
         }
-        movieAdapter.notifyDataSetChanged();
+        filmAdapter.notifyDataSetChanged();
 
 
     }
