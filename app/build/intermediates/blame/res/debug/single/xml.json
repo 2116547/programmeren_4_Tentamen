@@ -1,18 +1,34 @@
 [
     {
-        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
-        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_notification.xml"
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_notification.xml"
     },
     {
-        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
-        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/xml/pref_notification.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/app/src/main/res/xml/pref_notification.xml"
     },
     {
-        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
-        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_headers.xml"
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
     },
     {
-        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
-        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_general.xml"
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/xml/pref_headers.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/app/src/main/res/xml/pref_headers.xml"
+    },
+    {
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/xml/pref_data_sync.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/app/src/main/res/xml/pref_data_sync.xml"
+    },
+    {
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/xml/pref_general.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/app/src/main/res/xml/pref_general.xml"
+    },
+    {
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_headers.xml"
+    },
+    {
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_general.xml"
     }
 ]

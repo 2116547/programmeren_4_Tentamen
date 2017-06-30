@@ -1,10 +1,18 @@
 [
     {
-        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     }
 ]

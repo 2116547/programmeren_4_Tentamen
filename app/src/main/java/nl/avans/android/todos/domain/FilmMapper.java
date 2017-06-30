@@ -34,8 +34,8 @@ public class FilmMapper {
 
                 Film film = new Film(
                         jsonObject.getString(FilmTitle),
-                        jsonObject.getString(Rating),
                         jsonObject.getString(Year),
+                        jsonObject.getString(Rating),
                         jsonObject.getString(FilmId),
                         jsonObject.getString(filmLenght),
                         jsonObject.getString(filmDescription)

@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/C:\\Users\\maartje\\.android\\build-cache\\2e848b97aecb074cc96213c374876c4f9189f30e\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "source": "/Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }
 ]

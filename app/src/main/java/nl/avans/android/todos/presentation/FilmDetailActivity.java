@@ -11,6 +11,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -29,11 +30,8 @@ import static nl.avans.android.todos.presentation.MainActivity.FILM_DATA;
  */
 
 public class FilmDetailActivity  extends AppCompatActivity implements RequestInterface {
-    private TextView textTitle;
-    private TextView textYear;
-    private TextView textRating;
-    private TextView textFilmId;
-    private TextView textFilmLenght;
+    private TextView textTitle, textYear, textRating, textFilmId, textFilmLenght;
+    private Button rentButton;
     private String token;
     private TextView textFilmDescription;
     private Film film;
@@ -51,31 +49,27 @@ public class FilmDetailActivity  extends AppCompatActivity implements RequestInt
         textFilmLenght = (TextView) findViewById(R.id.filmLength);
         textRating = (TextView) findViewById(R.id.filmRating);
         textFilmDescription = (TextView) findViewById(R.id.filmDescription);
+        rentButton = (Button) findViewById(R.id.rentButton);
+        rentButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //rent movie
+            }
+        });
 
         Intent intent = getIntent();
-
         Bundle extras = getIntent().getExtras();
 
         final Film film = (Film) extras.getSerializable(FILM_DATA);
 
-       textTitle.setText(film.getTitle());
-       textYear.setText(film.getYear());
-       textRating.setText(film.getRating());
-       textFilmId.setText(film.getFilm_Id());
-       textFilmLenght.setText(film.getFilmLength());
-       textFilmDescription.setText(film.getFilmDescription());
-
-
-
-   //     Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        toolbar.setTitle(film.getTitle());
-     //   setSupportActionBar(toolbar);
-
-
-
+        textTitle.setText(film.getTitle());
+        textYear.setText(film.getYear());
+        textRating.setText("Rating: " + film.getRating());
+        textFilmId.setText("ID: " + film.getFilm_Id());
+        textFilmLenght.setText("Lengte: " + film.getFilmLength() + " minuten");
+        textFilmDescription.setText(film.getFilmDescription());
 
     }
-
 
 
     @Override
@@ -83,43 +77,6 @@ public class FilmDetailActivity  extends AppCompatActivity implements RequestInt
         finish();
         return true;
     }
-
-    //@Override
-    //public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-      //  if(film.getFilmId() != 0) {
-        //    getMenuInflater().inflate(R.menu.menu_detail, menu);
-        //}
-        //return true;
-    //}
-
- //   @Override
-    //public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-      //  int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        //if (id == R.id.action_delete) {
-          //  RESTApiV1 restApiV1 = new RESTApiV1(this);
-            //restApiV1.deleteMovie(movie, token, this);
-            //return true;
-        //}
-
-        //return super.onOptionsItemSelected(item);
-    //}
-
-
-
-   // @Override
-    //public void onClick(View view) {
-      //  switch (view.getId()){
-        //    case R.id.fab:
-          //      handleFabClick();
-            //    break;
-        //}
-    //}
 
 
     @NonNull
