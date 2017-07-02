@@ -22,12 +22,6 @@
             android:textSize="16sp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/filmYear"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="filmYear"
-            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/filmRating"

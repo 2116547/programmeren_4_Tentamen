@@ -1,6 +1,7 @@
 package nl.avans.android.todos.domain;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,26 +12,71 @@ import java.util.ArrayList;
 
 import nl.avans.android.todos.R;
 
+/**
+ * Created by maartje on 29-6-2017.
+ */
 
-public class RentalAdapter extends ArrayAdapter<Rental> {
+public class RentalAdapter extends ArrayAdapter<Film> {
+    public static final String TAG = RentalAdapter.class.getSimpleName();
+    private Context mContext;
+    private ArrayList<Film> items;
 
 
-    public RentalAdapter(Context context, ArrayList<nl.avans.android.todos.domain.Rental> rentals) {
-        super(context, 0, rentals);
+    private static class ViewHolder {
+        TextView title, return_date, available;
+
+
     }
 
+    public RentalAdapter(Context context, ArrayList<Film> items){
+        super(context, R.layout.activity_rental, items);
+        this.mContext = context;
+        this.items = items;
+        Log.d(TAG, "Consturctor called");
+    }
+
+    @Override
     public View getView(int position, View convertView, ViewGroup parent) {
+        Log.d(TAG, "getView Called");
+        Film item = items.get(position);
 
-        nl.avans.android.todos.domain.Rental rental = getItem(position);
+        ViewHolder viewHolder;
+
+        if (convertView == null) {
+
+            viewHolder = new ViewHolder();
+            LayoutInflater inflater = LayoutInflater.from(mContext);
+            convertView = inflater.inflate(R.layout.activity_rental, parent, false);
+
+            viewHolder.title = (TextView) convertView.findViewById(R.id.rentaltitle);
+            viewHolder.available = (TextView) convertView.findViewById(R.id.available);
 
 
-
-        if( convertView == null ) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.activity_rental_list, parent, false);
+            convertView.setTag(viewHolder);
+        } else {
+            viewHolder = (ViewHolder) convertView.getTag();
         }
 
-        TextView gehuurdeFilm = (TextView)convertView.findViewById(R.id.filmTitle);
-        gehuurdeFilm.setText(rental.getFilmTitle());
+        viewHolder.title.setText(item.getTitle());
+        Log.d(TAG, item.getReturn_date());
+
+
+        if (item.getReturn_date() == "null"){
+            int i = item.getRental_rate();
+            double i2 = (double) i;
+            viewHolder.return_date.setText("Rental duration: " + item.getRental_rate() + " days" + " Rental rate: €"+ i2+ "0");
+        }else{
+            viewHolder.return_date.setText("Return date: " + item.getReturn_date());
+        }
+
+
+        Integer rental_id = item.getRental_id();
+        if (rental_id != 0){
+            viewHolder.available.setText("Uitgeleend");
+        }else{
+            viewHolder.available.setText("Huren");
+        }
+
 
         return convertView;
     }
