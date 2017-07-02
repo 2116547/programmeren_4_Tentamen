@@ -3,31 +3,19 @@ package nl.avans.android.todos.domain;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * Created by Joep on 28-06-17.
- */
 
 public class Rental implements Serializable {
 
-    private Date rentalDate;
-    private String filmTitle, filmDescription, customerFistname, customerLastname, filmRating;
-    private int releaseYear, filmID, filmLength, inventoryID, customerID;
+    private Date rental_date;
+    private String filmTitle, filmDescription, customerFirstName, customerLastName, filmRating;
+    private int releaseYear, filmId, customerId, filmLength, inventoryId;
 
-    public int getCustomerID() {
-        return customerID;
+    public Date getRental_date() {
+        return rental_date;
     }
 
-    public void setCustomerID(int customerID) {
-        this.customerID = customerID;
-    }
-
-    public Date getRentalDate() {
-        return rentalDate;
-
-    }
-
-    public void setRentalDate(Date rentalDate) {
-        this.rentalDate = rentalDate;
+    public void setRental_date(Date rental_date) {
+        this.rental_date = rental_date;
     }
 
     public String getFilmTitle() {
@@ -46,20 +34,20 @@ public class Rental implements Serializable {
         this.filmDescription = filmDescription;
     }
 
-    public String getCustomerFistname() {
-        return customerFistname;
+    public String getCustomerFirstName() {
+        return customerFirstName;
     }
 
-    public void setCustomerFistname(String customerFistname) {
-        this.customerFistname = customerFistname;
+    public void setCustomerFirstName(String customerFirstName) {
+        this.customerFirstName = customerFirstName;
     }
 
-    public String getCustomerLastname() {
-        return customerLastname;
+    public String getCustomerLastName() {
+        return customerLastName;
     }
 
-    public void setCustomerLastname(String customerLastname) {
-        this.customerLastname = customerLastname;
+    public void setCustomerLastName(String customerLastName) {
+        this.customerLastName = customerLastName;
     }
 
     public String getFilmRating() {
@@ -78,12 +66,20 @@ public class Rental implements Serializable {
         this.releaseYear = releaseYear;
     }
 
-    public int getFilmID() {
-        return filmID;
+    public int getFilmId() {
+        return filmId;
     }
 
-    public void setFilmID(int filmID) {
-        this.filmID = filmID;
+    public void setFilmId(int filmId) {
+        this.filmId = filmId;
+    }
+
+    public int getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(int customerId) {
+        this.customerId = customerId;
     }
 
     public int getFilmLength() {
@@ -94,11 +90,11 @@ public class Rental implements Serializable {
         this.filmLength = filmLength;
     }
 
-    public int getInventoryID() {
-        return inventoryID;
+    public int getInventoryId() {
+        return inventoryId;
     }
 
-    public void setInventoryID(int inventoryID) {
-        this.inventoryID = inventoryID;
+    public void setInventoryId(int inventoryId) {
+        this.inventoryId = inventoryId;
     }
 }

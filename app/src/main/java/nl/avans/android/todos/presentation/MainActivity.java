@@ -137,40 +137,6 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    //@Override
-  //  public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-      ///  int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        //if (id == R.id.action_reserveringen) {
-          //  Intent intent = new Intent(getApplicationContext(), RentalList.class);
-            //intent.putExtra("ID", customerId);
-            //startActivity(intent);
-
-            //return true;
-        //} else if(id == R.id.action_logout){
-            // Logout - remove token from local settings and navigate to login screen.
-          //  SharedPreferences sharedPref = getApplicationContext().getSharedPreferences(
-            //        getString(R.string.preference_file_key), Context.MODE_PRIVATE);
-            //SharedPreferences.Editor editor = sharedPref.edit();
-            //editor.remove(getString(R.string.saved_token));
-            //editor.commit();
-
-            // Empty the homescreen
-            //films.clear();
-            //FilmAdapter.notifyDataSetChanged();
-
-            // Navigate to login screen
-           // Intent login = new Intent(getApplicationContext(), LoginActivity.class);
-            //startActivity(login);
-       // }
-
-//        return super.onOptionsItemSelected(item);
-  //  }
-
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {

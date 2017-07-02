@@ -1,16 +1,13 @@
-package nl.avans.android.todos.domain;
+package com.example.mikey.practicum_programmeren4_app.domain;
 
 import android.util.Log;
-
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-
 import java.util.ArrayList;
 
-/**
- * Created by Joep on 28-06-17.
- */
+import nl.avans.android.todos.domain.Rental;
+
 
 public class RentalMapper {
 
@@ -41,14 +38,14 @@ public class RentalMapper {
 
                 Rental rental = new Rental();
                 rental.setFilmTitle(title);
-                rental.setFilmID(filmId);
+                rental.setFilmId(filmId);
                 rental.setFilmDescription(description);
                 rental.setReleaseYear(releaseYear);
                 rental.setFilmRating(rating);
                 rental.setFilmLength(length);
-                rental.setCustomerFistname(customerFirstName);
-                rental.setCustomerID(customerId);
-                rental.setInventoryID(inventoryid);
+                rental.setCustomerFirstName(customerFirstName);
+                rental.setCustomerId(customerId);
+                rental.setInventoryId(inventoryid);
                 result.add(rental);
             }
         } catch( JSONException ex) {

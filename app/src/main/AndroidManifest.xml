@@ -15,8 +15,7 @@
         <activity
             android:name=".presentation.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".presentation.SettingsActivity"
             android:label="@string/title_activity_settings"
@@ -26,15 +25,17 @@
                 android:value=".presentation.MainActivity" />
         </activity>
         <activity android:name=".presentation.LoginActivity">
-        <activity android:name=".presentation.FilmlistActivity"></activity>
-        <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+            <activity android:name=".presentation.FilmlistActivity" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
-            </activity>
-        <activity android:name=".presentation.RegisterActivity"></activity>
-        <activity android:name=".presentation.FilmDetailActivity"></activity>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presentation.RegisterActivity" />
+        <activity android:name=".presentation.FilmDetailActivity" />
+        <activity android:name=".service.RentalList"></activity>
     </application>
 
 </manifest>

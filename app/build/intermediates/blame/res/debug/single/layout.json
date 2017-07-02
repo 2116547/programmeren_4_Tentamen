@@ -340,6 +340,14 @@
         "source": "/Users/joep/dev/programmeren_4_tentamen/C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/layout/activity_rental_list.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/app/src/main/res/layout/activity_rental_list.xml"
+    },
+    {
+        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/layout/rental_list_item.xml",
+        "source": "/Users/joep/dev/programmeren_4_tentamen/app/src/main/res/layout/rental_list_item.xml"
+    },
+    {
         "merged": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_film_detail.xml",
         "source": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\layout\\activity_film_detail.xml"
     },
