@@ -1,143 +1,143 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:2:1-41:12
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:3:5-37
-		INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:3:5-37
+		INJECTED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:5:5-67
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:5:22-64
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:6:5-79
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:6:5-79
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:6:22-76
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:8:5-39:19
-MERGED from [com.android.support:design:25.3.1] /Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/joep/.android/build-cache/bd90d87546a69b2a4bccba1fcd9f64665fdd0021/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/joep/.android/build-cache/dff3e181ba6cfa15a11a6529fd9a755aec91334d/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] /Users/joep/.android/build-cache/09d575fcaeb42643cd9546c7c2bfa097ec2c06aa/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-v4:25.3.1] /Users/joep/.android/build-cache/0e3626324bca5576d7ee53bfbf4ed2c5e5927484/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/joep/.android/build-cache/620d3d7e479ee1dab83cc44bf09904462e85fcde/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/joep/.android/build-cache/6a099082eaf074374c39d1b23a4b66e37b4ab992/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/joep/.android/build-cache/cd8aff46aa1e5ebd3d27cb87ecde65db8c6f358d/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/joep/.android/build-cache/cfdc644f7e589f44151370712aa38bd3331014a6/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] /Users/joep/.android/build-cache/6835ea6c976b43b8116657c1e8240a1cd51d027f/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/joep/.android/build-cache/cbf3686434ed628628ed8450939b86f8695d3ce0/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.0.0] /Users/joep/.android/build-cache/a87fa8883216a82dd2a17c60f405c03f0f557f62/output/AndroidManifest.xml:9:5-20
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:8:5-39:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\maartje\.android\build-cache\2e848b97aecb074cc96213c374876c4f9189f30e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\maartje\.android\build-cache\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\maartje\.android\build-cache\91ef9fbb42591a3a717ee312bce721f4092d1349\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\maartje\.android\build-cache\1be75a4faf68c6460f95d49e6ac2b7c62109b586\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\maartje\.android\build-cache\624263be04eabeb7a6bd47c7c2cbf15a24d7cc15\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\maartje\.android\build-cache\2bfc602db91666d181b735011e200a765be90db7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\maartje\.android\build-cache\be784cbb2eb8b177917e91fbfeca8fd2435b2ed9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\maartje\.android\build-cache\fbda50654a33fd9a153ab0dfaedef9b6744f759e\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\maartje\.android\build-cache\8b072d91e35ad4af3c140abc1d17405fd87364e5\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\maartje\.android\build-cache\4f2ad44675724caef97cf585d7a1235d1bbcd160\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\maartje\.android\build-cache\ecc2f536ced858f1c7ceb2398e0ceaae7f176d18\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\maartje\.android\build-cache\b23e1dfc19529f37d4bc1ae0a8ec844384111c25\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\maartje\.android\build-cache\09bf854fa9a330a2892fa04ca65f8a240ac786e8\output\AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:11:9-41
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:11:9-41
 	android:supportsRtl
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:13:9-35
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:13:9-35
 	android:roundIcon
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:12:9-54
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:12:9-54
 	android:allowBackup
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:9:9-35
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:9:9-35
 	android:icon
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:10:9-43
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:10:9-43
 	android:theme
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:14:9-40
 activity#nl.avans.android.todos.presentation.MainActivity
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:15:9-18:68
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:15:9-18:68
 	android:label
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:17:13-45
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:17:13-45
 	android:theme
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:18:13-56
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:18:13-56
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:16:13-54
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:16:13-54
 activity#nl.avans.android.todos.presentation.SettingsActivity
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:19:9-26:20
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:19:9-26:20
 	android:label
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:21:13-60
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:21:13-60
 	android:parentActivityName
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:22:13-68
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:22:13-68
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:20:13-58
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:20:13-58
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:23:13-25:62
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:23:13-25:62
 	android:value
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:25:17-59
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:25:17-59
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:24:17-63
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:24:17-63
 activity#nl.avans.android.todos.presentation.LoginActivity
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:27:9-35:20
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:27:9-35:20
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:27:19-61
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:27:19-61
 activity#nl.avans.android.todos.presentation.FilmlistActivity
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:28:13-71
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:28:13-71
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:28:23-68
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:28:23-68
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:30:13-34:29
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:31:17-69
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:31:25-66
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:33:17-77
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:33:27-74
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:33:27-74
 activity#nl.avans.android.todos.presentation.RegisterActivity
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:36:9-67
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:36:9-67
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:36:19-64
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:36:19-64
 activity#nl.avans.android.todos.presentation.FilmDetailActivity
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:37:9-69
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:37:9-69
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:37:19-66
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:37:19-66
 activity#nl.avans.android.todos.service.RentalList
-ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:38:9-65
+ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:38:9-65
 	android:name
-		ADDED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml:38:19-53
+		ADDED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml:38:19-53
 uses-sdk
-INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:25.3.1] /Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/joep/.android/build-cache/bd90d87546a69b2a4bccba1fcd9f64665fdd0021/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/joep/.android/build-cache/dff3e181ba6cfa15a11a6529fd9a755aec91334d/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/joep/.android/build-cache/a4b49aa3d417165e010ea7e157dbd98f4a073ec7/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] /Users/joep/.android/build-cache/09d575fcaeb42643cd9546c7c2bfa097ec2c06aa/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.3.1] /Users/joep/.android/build-cache/0e3626324bca5576d7ee53bfbf4ed2c5e5927484/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/joep/.android/build-cache/620d3d7e479ee1dab83cc44bf09904462e85fcde/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/joep/.android/build-cache/6a099082eaf074374c39d1b23a4b66e37b4ab992/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/joep/.android/build-cache/cd8aff46aa1e5ebd3d27cb87ecde65db8c6f358d/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/joep/.android/build-cache/cfdc644f7e589f44151370712aa38bd3331014a6/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] /Users/joep/.android/build-cache/6835ea6c976b43b8116657c1e8240a1cd51d027f/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/joep/.android/build-cache/cbf3686434ed628628ed8450939b86f8695d3ce0/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.volley:volley:1.0.0] /Users/joep/.android/build-cache/a87fa8883216a82dd2a17c60f405c03f0f557f62/output/AndroidManifest.xml:7:5-43
+INJECTED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\maartje\.android\build-cache\2e848b97aecb074cc96213c374876c4f9189f30e\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\maartje\.android\build-cache\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\maartje\.android\build-cache\91ef9fbb42591a3a717ee312bce721f4092d1349\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\maartje\.android\build-cache\1be75a4faf68c6460f95d49e6ac2b7c62109b586\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\maartje\.android\build-cache\4de83192f36849f9350b668b4f992c14d833b04b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\maartje\.android\build-cache\624263be04eabeb7a6bd47c7c2cbf15a24d7cc15\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\maartje\.android\build-cache\2bfc602db91666d181b735011e200a765be90db7\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\maartje\.android\build-cache\be784cbb2eb8b177917e91fbfeca8fd2435b2ed9\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\maartje\.android\build-cache\fbda50654a33fd9a153ab0dfaedef9b6744f759e\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\maartje\.android\build-cache\8b072d91e35ad4af3c140abc1d17405fd87364e5\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\maartje\.android\build-cache\4f2ad44675724caef97cf585d7a1235d1bbcd160\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\maartje\.android\build-cache\ecc2f536ced858f1c7ceb2398e0ceaae7f176d18\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\maartje\.android\build-cache\b23e1dfc19529f37d4bc1ae0a8ec844384111c25\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\maartje\.android\build-cache\09bf854fa9a330a2892fa04ca65f8a240ac786e8\output\AndroidManifest.xml:7:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] /Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\maartje\.android\build-cache\2e848b97aecb074cc96213c374876c4f9189f30e\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/joep/dev/programmeren_4_tentamen/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] /Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/joep/.android/build-cache/744a4e7d9364a3d0460dc4150be9ee0305525954/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/joep/.android/build-cache/bd90d87546a69b2a4bccba1fcd9f64665fdd0021/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/joep/.android/build-cache/dff3e181ba6cfa15a11a6529fd9a755aec91334d/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/joep/.android/build-cache/a4b49aa3d417165e010ea7e157dbd98f4a073ec7/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] /Users/joep/.android/build-cache/09d575fcaeb42643cd9546c7c2bfa097ec2c06aa/output/AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] /Users/joep/.android/build-cache/0e3626324bca5576d7ee53bfbf4ed2c5e5927484/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] /Users/joep/.android/build-cache/620d3d7e479ee1dab83cc44bf09904462e85fcde/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] /Users/joep/.android/build-cache/6a099082eaf074374c39d1b23a4b66e37b4ab992/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] /Users/joep/.android/build-cache/cd8aff46aa1e5ebd3d27cb87ecde65db8c6f358d/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] /Users/joep/.android/build-cache/cfdc644f7e589f44151370712aa38bd3331014a6/output/AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] /Users/joep/.android/build-cache/6835ea6c976b43b8116657c1e8240a1cd51d027f/output/AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\maartje\.android\build-cache\2e848b97aecb074cc96213c374876c4f9189f30e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\maartje\.android\build-cache\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\maartje\.android\build-cache\91ef9fbb42591a3a717ee312bce721f4092d1349\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\maartje\.android\build-cache\1be75a4faf68c6460f95d49e6ac2b7c62109b586\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\maartje\.android\build-cache\4de83192f36849f9350b668b4f992c14d833b04b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\maartje\.android\build-cache\624263be04eabeb7a6bd47c7c2cbf15a24d7cc15\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\maartje\.android\build-cache\2bfc602db91666d181b735011e200a765be90db7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\maartje\.android\build-cache\be784cbb2eb8b177917e91fbfeca8fd2435b2ed9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\maartje\.android\build-cache\fbda50654a33fd9a153ab0dfaedef9b6744f759e\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\maartje\.android\build-cache\8b072d91e35ad4af3c140abc1d17405fd87364e5\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\maartje\.android\build-cache\4f2ad44675724caef97cf585d7a1235d1bbcd160\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\maartje\.android\build-cache\ecc2f536ced858f1c7ceb2398e0ceaae7f176d18\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] /Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\maartje\.android\build-cache\2e848b97aecb074cc96213c374876c4f9189f30e\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] /Users/joep/.android/build-cache/a23676aed475a4d7e6cf034753d905255417bd78/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\maartje\.android\build-cache\2e848b97aecb074cc96213c374876c4f9189f30e\output\AndroidManifest.xml:26:9-47

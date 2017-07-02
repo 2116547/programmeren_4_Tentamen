@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_add_white_48dp.png",
-        "source": "/Users/joep/dev/programmeren_4_tentamen/app/src/main/res/drawable-hdpi/ic_add_white_48dp.png"
+        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_add_white_48dp.png",
+        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\drawable-hdpi\\ic_add_white_48dp.png"
     },
     {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_done_white_48dp.png",
-        "source": "/Users/joep/dev/programmeren_4_tentamen/app/src/main/res/drawable-hdpi/ic_done_white_48dp.png"
-    },
-    {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_add_white_48dp.png",
-        "source": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\drawable-hdpi\\ic_add_white_48dp.png"
-    },
-    {
-        "merged": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_done_white_48dp.png",
-        "source": "/Users/joep/dev/programmeren_4_tentamen/C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\drawable-hdpi\\ic_done_white_48dp.png"
+        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_done_white_48dp.png",
+        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\drawable-hdpi\\ic_done_white_48dp.png"
     }
 ]

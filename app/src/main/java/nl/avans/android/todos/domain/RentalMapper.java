@@ -1,4 +1,4 @@
-package com.example.mikey.practicum_programmeren4_app.domain;
+package nl.avans.android.todos.domain;
 
 import android.util.Log;
 import org.json.JSONArray;

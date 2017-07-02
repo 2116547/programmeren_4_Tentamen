@@ -20,6 +20,7 @@ import nl.avans.android.todos.R;
 import nl.avans.android.todos.domain.Rental;
 import nl.avans.android.todos.domain.RentalMapper;
 
+
 /**
  * Created by Joep on 01-07-17.
  */
