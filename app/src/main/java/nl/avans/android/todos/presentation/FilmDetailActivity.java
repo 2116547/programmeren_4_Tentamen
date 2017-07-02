@@ -52,7 +52,7 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
     private int film_id;
     private TextView status;
 
-    private TextView title, desription, release, rating;
+    private TextView title, description, rating;
 
 
 
@@ -62,6 +62,7 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
         setContentView(R.layout.activity_film_detail);
 
         title = (TextView) findViewById(R.id.filmTitle);
+        description = (TextView) findViewById(R.id.filmDescription);
         rating = (TextView) findViewById(R.id.filmRating);
        // status = (TextView) findViewById(R.id.available);
 
@@ -79,6 +80,7 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
         film_id = film.getFilm_id();
 
         title.setText(film.getTitle());
+        description.setText(film.getDescription());
         rating.setText(film.getRating());
 
         getFilms();
