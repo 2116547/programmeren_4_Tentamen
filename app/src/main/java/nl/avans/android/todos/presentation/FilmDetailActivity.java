@@ -64,7 +64,7 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
         title = (TextView) findViewById(R.id.filmTitle);
         description = (TextView) findViewById(R.id.filmDescription);
         rating = (TextView) findViewById(R.id.filmRating);
-       // status = (TextView) findViewById(R.id.available);
+        status = (TextView) findViewById(R.id.filmdetailAvailable);
 
         listView = (ListView) findViewById(R.id.filmDetaillist);
         listView.setOnItemClickListener(this);
@@ -96,7 +96,7 @@ public class FilmDetailActivity  extends AppCompatActivity implements AdapterVie
         Film film = films.get(position);
         Log.d(TAG, "" + film.getRental_id());
         if (film.getRental_id() != 0) {
-            Log.d(TAG, "movie not saved");
+            Log.d(TAG, "Film niet opgeslagen");
         }else{
 
             FilmIdRequest request = new FilmIdRequest(getApplicationContext(), this);

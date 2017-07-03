@@ -1,4 +1,4 @@
-#Sun Jul 02 15:12:55 CEST 2017
+#Mon Jul 03 10:27:05 CEST 2017
 base.0=C\:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8
 renamed.0=classes.dex
 file.0=C\:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_8\\classes.dex

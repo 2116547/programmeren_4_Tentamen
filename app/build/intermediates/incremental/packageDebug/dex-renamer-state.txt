@@ -1,4 +1,4 @@
-#Sun Jul 02 15:26:26 CEST 2017
+#Mon Jul 03 10:27:06 CEST 2017
 base.0=C\:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_86f1f484cc449ec52058a1fbdf4e0ac4f1c734be
 renamed.1=classes.dex
 renamed.0=classes2.dex
