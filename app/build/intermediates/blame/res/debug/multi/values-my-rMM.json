@@ -1,6 +1,7 @@
 [
     {
         "outputFile": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my-rMM\\values-my-rMM.xml",
+<<<<<<< HEAD
         "map": [
             {
                 "to": {
@@ -405,6 +406,8 @@
     },
     {
         "outputFile": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my-rMM\\values-my-rMM.xml",
+=======
+>>>>>>> developer
         "map": [
             {
                 "to": {

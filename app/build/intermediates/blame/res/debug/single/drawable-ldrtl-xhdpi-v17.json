@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png",
         "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -9,10 +10,14 @@
     },
     {
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png",
+=======
+        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png",
+>>>>>>> developer
         "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png",
+<<<<<<< HEAD
         "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
@@ -21,6 +26,12 @@
     },
     {
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png",
+=======
+>>>>>>> developer
         "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\maartje\\.android\\build-cache\\6c0c6d5e533fab3b8f9050f66aa6c1700d52e6fb\\output\\res\\drawable-ldrtl-xhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     }
 ]

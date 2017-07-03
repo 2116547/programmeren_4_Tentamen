@@ -9,42 +9,16 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="filmTitle"
-        android:textAlignment="center"
         android:textColor="@android:color/black"
         android:textSize="20sp"
         android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/filmID"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="filmID"
-        android:textAlignment="center"
-        android:textSize="10sp"
-        android:textStyle="italic" />
-
-    <TextView
-        android:id="@+id/filmYear"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="filmYear"
-        android:layout_marginTop="10dp"
-        android:textAlignment="center" />
-
-    <TextView
-        android:id="@+id/filmLength"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="filmLength"
-        android:textAlignment="center"
-        android:textSize="13sp" />
+    
 
     <TextView
         android:id="@+id/filmRating"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="filmRating"
-        android:textAlignment="center"
         android:textSize="12sp"
         android:textStyle="bold" />
 
@@ -54,6 +28,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:text="filmDescription" />
+
+    <ListView
+        android:id="@+id/filmDetaillist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 
 </LinearLayout>

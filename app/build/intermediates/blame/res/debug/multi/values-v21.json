@@ -1,6 +1,7 @@
 [
     {
         "outputFile": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+<<<<<<< HEAD
         "map": [
             {
                 "to": {
@@ -2080,6 +2081,8 @@
     },
     {
         "outputFile": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+=======
+>>>>>>> developer
         "map": [
             {
                 "to": {

@@ -1,9 +1,10 @@
 [
     {
-        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
-        "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
         "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -12,6 +13,8 @@
         "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
+=======
+>>>>>>> developer
         "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher_round.png",
         "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     }

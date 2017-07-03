@@ -1,7 +1,7 @@
-#Tue Jun 20 11:21:51 CEST 2017
-base.0=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_02758f80bf20d490a6a643358351a4e820ba070d
+#Mon Jul 03 10:27:06 CEST 2017
+base.0=C\:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_86f1f484cc449ec52058a1fbdf4e0ac4f1c734be
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_51b566d8c75afbe44c6c1c626e3afeab33dcf5ec\\classes.dex
-base.1=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_51b566d8c75afbe44c6c1c626e3afeab33dcf5ec
-file.0=C\:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_02758f80bf20d490a6a643358351a4e820ba070d\\classes.dex
+file.1=C\:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_41f09c08813b8a02049cafb1296c5011ee56846e\\classes.dex
+base.1=C\:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_41f09c08813b8a02049cafb1296c5011ee56846e
+file.0=C\:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_86f1f484cc449ec52058a1fbdf4e0ac4f1c734be\\classes.dex

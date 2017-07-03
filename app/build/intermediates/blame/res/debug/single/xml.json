@@ -2,16 +2,20 @@
     {
         "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
         "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_notification.xml"
+<<<<<<< HEAD
     },
     {
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_notification.xml",
         "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_notification.xml"
+=======
+>>>>>>> developer
     },
     {
-        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
-        "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
+        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
+        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_data_sync.xml",
         "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_data_sync.xml"
     },
@@ -26,9 +30,13 @@
     {
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
         "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_general.xml"
+=======
+        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
+        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_headers.xml"
+>>>>>>> developer
     },
     {
-        "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_headers.xml",
-        "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_headers.xml"
+        "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\xml\\pref_general.xml",
+        "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\xml\\pref_general.xml"
     }
 ]

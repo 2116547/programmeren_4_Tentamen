@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity
 
     // UI Elements
     private ListView listViewFilms;
-    private BaseAdapter FilmAdapter;
+    private BaseAdapter filmAdapter;
     private ArrayList<Film> films = new ArrayList<>();
     int customerId;
     Intent intent;
@@ -65,8 +65,8 @@ public class MainActivity extends AppCompatActivity
 
         listViewFilms = (ListView) findViewById(R.id.filmList);
         listViewFilms.setOnItemClickListener(this);
-        FilmAdapter = new FilmAdapter(this, getLayoutInflater(), films);
-        listViewFilms.setAdapter(FilmAdapter);
+        filmAdapter = new FilmAdapter(this, getLayoutInflater(), films);
+        listViewFilms.setAdapter(filmAdapter);
         //
         // We hebben een token. Je zou eerst nog kunnen valideren dat het token nog
         // geldig is; dat doen we nu niet.
@@ -220,7 +220,35 @@ public class MainActivity extends AppCompatActivity
         for(int i = 0; i < filmArrayList.size(); i++) {
             films.add(filmArrayList.get(i));
         }
-        FilmAdapter.notifyDataSetChanged();
+        filmAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onMoviesError(String message) {
+        Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onRentalFilmsAvailable(ArrayList<Film> filmArrayList) {
+        Log.i(TAG, "We hebben " + filmArrayList.size() + " items in de lijst");
+
+        films.clear();
+        for(int i = 0; i < filmArrayList.size(); i++) {
+            films.add(filmArrayList.get(i));
+        }
+        filmAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onRentalMovieAvailable(Film film) {
+        films.clear();
+        films.add(film);
+        filmAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onRentalMoviesError(String message) {
+
     }
 
     /**
@@ -230,8 +258,9 @@ public class MainActivity extends AppCompatActivity
      */
     @Override
     public void onFilmsAvailable(Film film) {
+        films.clear();
         films.add(film);
-        FilmAdapter.notifyDataSetChanged();
+        filmAdapter.notifyDataSetChanged();
     }
 
     /**
@@ -243,6 +272,16 @@ public class MainActivity extends AppCompatActivity
     public void onToDosError(String message) {
         Log.e(TAG, message);
         Toast.makeText(getApplicationContext(), message, Toast.LENGTH_LONG).show();
+    }
+
+    @Override
+    public void onMovieDelAvailable() {
+        filmAdapter.notifyDataSetChanged();
+    }
+
+    @Override
+    public void onMoviesDelError(String message) {
+
     }
 
     /**

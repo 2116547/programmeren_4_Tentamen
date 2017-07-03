@@ -1,6 +1,7 @@
 [
     {
         "outputFile": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu-rES\\values-eu-rES.xml",
+<<<<<<< HEAD
         "map": [
             {
                 "to": {
@@ -405,6 +406,8 @@
     },
     {
         "outputFile": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-eu-rES\\values-eu-rES.xml",
+=======
+>>>>>>> developer
         "map": [
             {
                 "to": {

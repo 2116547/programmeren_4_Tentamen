@@ -1,6 +1,7 @@
 [
     {
         "outputFile": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+<<<<<<< HEAD
         "map": [
             {
                 "to": {
@@ -350,6 +351,8 @@
     },
     {
         "outputFile": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+>>>>>>> developer
         "map": [
             {
                 "to": {

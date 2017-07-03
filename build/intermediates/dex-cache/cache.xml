@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\programmeren_4_tentamen\programmeren_4_tentamen\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\programmeren_4_tentamen\programmeren_4_tentamen\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_51b566d8c75afbe44c6c1c626e3afeab33dcf5ec\classes.dex" />
+        <dex dex="C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_86f1f484cc449ec52058a1fbdf4e0ac4f1c734be\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\programmeren_4_tentamen\programmeren_4_tentamen\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="8b6c4d21afd88a98d70036b10bd5f09da79ff012">
-        <dex dex="C:\programmeren_4_tentamen\programmeren_4_tentamen\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_02758f80bf20d490a6a643358351a4e820ba070d\classes.dex" />
+        sha1="1b61dd0392f2ea2c85e0ea58fd3ed659bac7b3c6">
+        <dex dex="C:\Programmeren_4_tentamen\programmeren_4_tentamen\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_41f09c08813b8a02049cafb1296c5011ee56846e\classes.dex" />
     </item>
 
 </items>

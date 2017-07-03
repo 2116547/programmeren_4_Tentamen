@@ -2,6 +2,7 @@
     {
         "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\menu\\main.xml"
+<<<<<<< HEAD
     },
     {
         "merged": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
@@ -12,6 +13,10 @@
         "source": "C:\\programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
+=======
+    },
+    {
+>>>>>>> developer
         "merged": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
         "source": "C:\\Programmeren_4_tentamen\\programmeren_4_tentamen\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     }
